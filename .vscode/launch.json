@@ -12,8 +12,12 @@
             "program": "${workspaceFolder}/bin/Debug/net7.0/1-1.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
-            "console": "internalConsole",
-            "stopAtEntry": false
+            "console": "integratedTerminal",
+            "stopAtEntry": false,
+            "justMyCode": false,
+            "logging": {
+                "moduleLoad": false
+            }
         },
         {
             "name": ".NET Core Attach",
